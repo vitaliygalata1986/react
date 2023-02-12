@@ -1,4 +1,4 @@
 1) Проект projects-1 - создание функционального компонента. Использования хука useState для изменения состояния компонента. Свойства для компонента.
 2) Проект projects-2 - создание react приложения с помощью утилиты Create React App 
-3) Проект projects-3 - отключение reactscripts с помощью npm run eject
- 
+3) Проект projects-3 - отключение react scripts с помощью npm run eject
+4) Проект projects-4 - стартовый шаблон для react
