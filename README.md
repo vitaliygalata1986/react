@@ -2,4 +2,5 @@
 2) Проект projects-2 - создание react приложения с помощью утилиты Create React App 
 3) Проект projects-3 - отключение react scripts с помощью npm run eject
 4) Проект projects-4 - стартовый шаблон для react
-5) Проект projects-4 - переиспользование компонента
+5) Проект projects-5 - переиспользование компонента
+6) Проект projects-6 - использование props
