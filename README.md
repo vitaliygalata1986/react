@@ -17,3 +17,4 @@
 17. Проект projects-17 - использование свойства children
 18. Проект projects-18 - модальные окна
 19. Проект projects-19 - использование хука useEffect
+20. Проект projects-20 - использование css module
