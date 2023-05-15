@@ -20,3 +20,4 @@
 20. Проект projects-20 - использование css module
 21. Проект projects-21 - разработка приложения Todo - часть 1
 22. Проект projects-22 - разработка приложения Todo - часть 2
+23. Проект projects-23 - React - Router
