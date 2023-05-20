@@ -21,4 +21,5 @@
 21. Проект projects-21 - разработка приложения Todo - часть 1
 22. Проект projects-22 - разработка приложения Todo - часть 2
 23. Проект projects-23 - React - Router
-24. Проект projects-23 - React - Router - Navigation
+24. Проект projects-24 - React - Router - Navigation
+25. Проект projects-25 - React - Router - Navigation-Active-Link
