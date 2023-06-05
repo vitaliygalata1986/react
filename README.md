@@ -23,4 +23,5 @@
 23. Проект projects-23 - React - Router
 24. Проект projects-24 - React - Router - Navigation
 25. Проект projects-25 - React - Router - Navigation-Active-Link
-26. Проект projects-25 - React - Router - Фильтрация курсов
+26. Проект projects-26 - React - Router - Фильтрация курсов
+27. Проект projects-27 - React - Разработка калькулятора
