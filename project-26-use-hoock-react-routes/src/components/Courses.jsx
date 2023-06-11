@@ -1,9 +1,20 @@
 import queryString from 'query-string';
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import courses from '../data/courses';
 import сourses from '../data/courses';
 
-const SORT_KEYS = ['title', 'slug', 'id'];
+// const SORT_KEYS = ['title', 'slug', 'id'];
+
+let keys = [];
+
+for (let course of сourses) {
+  Object.keys(course).forEach((key) => {
+    keys.push(key);
+  });
+}
+
+const SORT_KEYS = [...new Set(keys)];
 
 function sortCoures(courses, key) {
   // функция сортировки, принимает массив курсов и ключ, по которому мы хотим отсортировать объкты в массиве
@@ -26,12 +37,17 @@ function Courses() {
   const queryParse = queryString.parse(location.search);
   let [sortedKey, setSortedKey] = useState(queryParse.sort);
   // отсортированные курсы по определенному свойству объекту (title,slug,id)
-  const [sortCourses, setSortedCourses] = useState(
+  let [sortCourses, setSortedCourses] = useState(
     sortCoures(сourses, sortedKey)
   );
 
-  function selectCoursesSirting(type) {
-    setSortedKey((sortedKey = type));
+  const [selectedFilterCourses, setSelected] = useState('');
+
+  function selectCoursesSorting(event) {
+    const value = event.target.value;
+    setSelected(value);
+    setSortedKey(value);
+    setSortedCourses(sortCoures(сourses, value));
   }
 
   useEffect(() => {
@@ -46,8 +62,9 @@ function Courses() {
   return (
     <div>
       <h1>{sortedKey ? `Courses sordet by ${sortedKey}` : 'Courses'}</h1>
-      <select onChange={(e) => selectCoursesSirting(e.target.value)}>
-        <option value="sss" disabled selected hidden>
+
+      <select value={selectedFilterCourses} onChange={selectCoursesSorting}>
+        <option value="" disabled hidden>
           Choose
         </option>
         {SORT_KEYS.map((key, index) => (
@@ -56,6 +73,7 @@ function Courses() {
           </option>
         ))}
       </select>
+
       {sortCourses.map((course) => (
         <div key={course.id}>
           <Link to={course.slug} className="courseLink">
