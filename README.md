@@ -25,3 +25,5 @@
 25. Проект projects-25 - React - Router - Navigation-Active-Link
 26. Проект projects-26 - React - Router - Фильтрация курсов
 27. Проект projects-27 - React - Разработка калькулятора
+28. Проект projects-28 - Практика - UseEffect
+29. Проект projects-29 - React Context API

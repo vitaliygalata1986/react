@@ -2,32 +2,9 @@
   text-align: center;
 }
 
-/* .activeLink {
-  color: red;
-  text-decoration: none;
-} */
-
-.active {
-  color: red;
-  text-decoration: none;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-nav a {
-  margin: 15px;
-  text-decoration: none;
-}
-
-.courseLink {
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.courseLink:hover {
-  text-decoration: underline;
 }
 
 @media (prefers-reduced-motion: no-preference) {

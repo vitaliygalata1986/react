@@ -1,23 +1,33 @@
 const courses = [
   {
-    title: 'Complete React Guide',
+    title: 'Vue JS',
+    slug: 'vue',
+    id: 503,
+    price: 1000,
+  },
+  {
+    title: 'React JS',
     slug: 'react',
     id: 257,
+    price: 2500,
   },
   {
-    title: 'Complete JavaScript Guide',
+    title: 'JavaScript',
     slug: 'javascript',
     id: 236,
+    price: 750,
   },
   {
-    title: 'Complete Python Guide',
+    title: 'Python',
     slug: 'python',
     id: 301,
+    price: 900,
   },
   {
-    title: 'Complete Node.js Guide',
+    title: 'Node JS',
     slug: 'node-js',
     id: 456,
+    price: 3500,
   },
 ];
 

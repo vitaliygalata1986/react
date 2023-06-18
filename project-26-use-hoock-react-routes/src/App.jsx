@@ -7,6 +7,7 @@ import NotFound from './components/NotFound';
 import MainLayout from './layouts/MainLayout';
 import SingleCourse from './components/SingleCourse';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

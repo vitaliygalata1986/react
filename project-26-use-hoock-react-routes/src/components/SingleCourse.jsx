@@ -29,12 +29,13 @@ function SingleCourse() {
 
   return (
     <>
-      <h1>{course?.title}</h1>
-      <h2>{course?.slug}</h2>
-      <h3>{course?.id}</h3>
+      <h1 className="mt-5">Название курса: {course?.title}</h1>
+      <h3>Slug курса: {course?.slug}</h3>
+      <h3>Id курса: {course?.id}</h3>
+      <h3>Стоимость курса: {course?.price} грв.</h3>
       {/* <Link to="/courses">All courses</Link> */}
       <Link to=".." relative="path">
-        All courses
+        Все курсы
       </Link>
     </>
   );

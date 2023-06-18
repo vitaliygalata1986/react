@@ -61,14 +61,20 @@ function Courses() {
 
   return (
     <div>
-      <h1>{sortedKey ? `Courses sordet by ${sortedKey}` : 'Courses'}</h1>
+      <h1 className="mt-5">
+        {sortedKey ? `Курсы отсортированы по "${sortedKey}"` : 'Курсы'}
+      </h1>
 
-      <select value={selectedFilterCourses} onChange={selectCoursesSorting}>
+      <select
+        className="form-select mb-5 text-capitalize"
+        value={selectedFilterCourses}
+        onChange={selectCoursesSorting}
+      >
         <option value="" disabled hidden>
-          Choose
+          Выберите...
         </option>
         {SORT_KEYS.map((key, index) => (
-          <option key={index} value={key}>
+          <option className="text-capitalize" key={index} value={key}>
             {key}
           </option>
         ))}
