@@ -27,3 +27,4 @@
 27. Проект projects-27 - React - Разработка калькулятора
 28. Проект projects-28 - Практика - хук UseEffect
 29. Проект projects-29 - React Context API
+30. Проект projects-30 - использование хука useReducer
