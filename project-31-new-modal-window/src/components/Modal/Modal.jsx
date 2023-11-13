@@ -1,6 +1,6 @@
-import ModalContext from '../context/ModalContext';
+import ModalContext from '../../context/ModalContext';
 import { useContext } from 'react';
-import Button from './Button';
+import Button from '../Button/Button';
 import styles from './Modal.module.css';
 
 function Modal({ children }) {

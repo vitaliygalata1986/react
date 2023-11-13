@@ -1,8 +1,7 @@
 import { createContext } from 'react';
 
 const ModalContext = createContext({
-  showModal: '',
-  changeShowModal: () => {},
+  showModal: false,
+  changeShow: () => {},
 });
-
 export default ModalContext;

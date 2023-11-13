@@ -2,18 +2,18 @@ import UserContext from '../context/UserContext';
 import { useContext } from 'react';
 
 function ChangeUser() {
-  const { userName, cnangeUserName } = useContext(UserContext); // хотим воспользоваться определенным контекстом
+  const { userName, changeUserName } = useContext(UserContext); // хотим воспользоваться определенным контекстом
 
   function handleFormSubmit(event) {
     event.preventDefault();
-    cnangeUserName(event.target.username.value);
+    changeUserName(event.target.username.value);
   }
 
   return (
     <>
       <button
         onClick={() =>
-          cnangeUserName(userName === 'Vitaliy' ? 'Elena' : 'Vitaliy')
+          changeUserName(userName === 'Vitaliy' ? 'Elena' : 'Vitaliy')
         }
       >
         Change name

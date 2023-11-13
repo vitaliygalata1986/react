@@ -15,7 +15,9 @@ function App() {
   const [show, changeShow] = useState(false);
   return (
     <BrowserRouter>
-      <ModalContext.Provider value={{ show, changeShow }}>
+      <ModalContext.Provider
+        value={{ showModal: show, changeShowModal: changeShow }}
+      >
         <div className="App">
           <Routes>
             <Route path="/" element={<MainLayout />}>

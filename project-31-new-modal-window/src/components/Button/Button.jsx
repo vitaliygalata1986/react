@@ -1,4 +1,4 @@
-import ModalContext from '../context/ModalContext';
+import ModalContext from '../../context/ModalContext';
 import { useContext } from 'react';
 import styles from './Button.module.css';
 

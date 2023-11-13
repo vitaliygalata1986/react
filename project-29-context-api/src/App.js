@@ -7,7 +7,8 @@ import './App.css';
 function App() {
   const [user, setUser] = useState('Vitaliy');
   return (
-    <UserContext.Provider value={{ userName: user, cnangeUserName: setUser }}>
+    //<UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider value={{ userName: user, changeUserName: setUser }}>
       <div className="App">
         <User />
         <ChangeUser />

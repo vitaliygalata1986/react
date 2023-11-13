@@ -1,15 +1,12 @@
-import ModalContext from '../context/ModalContext';
-import { useContext } from 'react';
 import Modal from './Modal';
 import Button from './Button';
 
 const Contacts = () => {
-  const { show, changeShow } = useContext(ModalContext);
   return (
     <>
       <h1 className="mt-5">Contacts</h1>
       <p>Галата Виталий Викторович, тел. 0937647459</p>
-      <Modal show={show} changeShow={changeShow}>
+      <Modal>
         <h2>Modal window</h2>
         <p>
           2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -31,7 +28,7 @@ const Contacts = () => {
           incidunt corrupti harum accusamus hic laborum inventore a maiores?
         </p>
       </Modal>
-      <Button onClick={() => changeShow(true)}>Открыть модалку</Button>
+      <Button>Открыть модалку</Button>
     </>
   );
 };
