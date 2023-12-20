@@ -6,10 +6,10 @@ import Counter from './components/Counter';
 function App() {
   // console.log('App rendering');
   const [count, setCount] = useState(0); // в реакте принято называть функцию, которая будет менять состояние компонента через set
-
+  //console.log(count);//1
   const incrementCount = () => {
     setCount(count + 1);
-    // console.log(count);
+    console.log(count); //0
   };
 
   return (
