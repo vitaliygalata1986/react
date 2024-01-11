@@ -29,3 +29,4 @@
 29. Проект projects-29 - React Context API
 30. Проект projects-30 - использование хука useReducer
 31. Проект projects-31 - модальное окно с анимацией
+32. Проект projects-32 - типизация кнопки
