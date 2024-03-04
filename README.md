@@ -32,3 +32,4 @@
 32. Проект projects-32 - типизация кнопки
 33. Проект projects-33 - типизация event
 34. Проект projects-34 - типизация input
+35. Проект projects-35 - создание redux функции, без Redux
