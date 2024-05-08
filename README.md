@@ -30,7 +30,7 @@
 30. Проект projects-30 - использование хука useReducer
 31. Проект projects-31 - модальное окно с анимацией
 32. Проект projects-32 - типизация кнопки
-33. Проект projects-33 - типизация event
-34. Проект projects-34 - типизация input
+33. Проект projects-33 - типизация Event
+34. Проект projects-34 - типизация Input
 35. Проект projects-35 - создание redux функции, без Redux
 36. Проект projects-36 - использование Redux без React с помощью нативного JS
