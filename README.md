@@ -33,4 +33,4 @@
 33. Проект projects-33 - типизация event
 34. Проект projects-34 - типизация input
 35. Проект projects-35 - создание redux функции, без Redux
-36. Проект projects-36 - использование Redux без React с пмощью нативного JS
+36. Проект projects-36 - использование Redux без React с помощью нативного JS

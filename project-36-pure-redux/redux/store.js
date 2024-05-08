@@ -4,6 +4,6 @@ import { configureStore } from 'https://cdn.jsdelivr.net/npm/@reduxjs/toolkit@2.
 import reducer from './reducer.js';
 
 export default configureStore({
-  // создадим магазин Redux на основании редюсеры, который указываем ниже
+  // создадим магазин Redux на основании редюсера, который указываем ниже
   reducer: reducer,
 });
