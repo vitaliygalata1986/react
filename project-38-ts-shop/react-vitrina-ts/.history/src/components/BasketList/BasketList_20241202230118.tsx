@@ -7,7 +7,7 @@ function BasketList() {
   const dispatch = useDispatch<AppDispatch>();
   const order = useSelector(selectOrder);
 
-  const totalPrice:number = order.reduce((sum, item) => {
+  const totalPriceЖ тгьиук = order.reduce((sum, item) => {
     return (sum += item.priceProduct * item.quantity);
   }, 0);
 

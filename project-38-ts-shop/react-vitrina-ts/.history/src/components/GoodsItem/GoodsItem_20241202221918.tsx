@@ -12,7 +12,7 @@ function GoodsItem({
   displayAssets,
 }: GoodsItemProps) {
   const priceProduct = price.regularPrice;
-  let imageGoods:string = '';
+  let imageGoods = '';
   displayAssets.forEach((el) => (imageGoods = el.full_background));
 
   const dispatch = useDispatch<AppDispatch>();
