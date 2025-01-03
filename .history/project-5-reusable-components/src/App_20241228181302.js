@@ -7,17 +7,19 @@ import OtherComponent from './components/OtherComponents';
 function App() {
   console.log('Called');
 
-  //const [buttonText, setButtonText] = useState('Click me');
+  const [buttonText, setButtonText] = useState('Click me');
 
+  /*
   let buttonText = 'Click me';
   const onButtonClick = () => {
     buttonText = 'Hello form React';
     console.log(buttonText);
   };
+  */
 
-  // const onButtonClick = () => {
-  //   setButtonText('Hello form React');
-  // };
+  const onButtonClick = () => {
+    setButtonText('Hello form React');
+  };
 
   return (
     <div className='App'>

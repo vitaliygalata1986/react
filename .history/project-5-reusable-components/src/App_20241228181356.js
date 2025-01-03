@@ -11,7 +11,7 @@ function App() {
 
   let buttonText = 'Click me';
   const onButtonClick = () => {
-    buttonText = 'Hello form React';
+    buttonText = 'Hello form React
     console.log(buttonText);
   };
 
