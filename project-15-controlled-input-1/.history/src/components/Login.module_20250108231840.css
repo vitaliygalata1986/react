@@ -1,0 +1,10 @@
+.invalid {
+  border: 2px solid #ff4d4d; /* Красная граница */
+  background-color: rgba(255, 0, 0, 0.2); /* Полупрозрачный фон */
+  position: relative; /* Убедимся, что фон не перекрывает курсор */
+}
+
+.invalid:focus {
+  outline: none; /* Убираем стандартное обводку браузера */
+  border-color: #ff0000; /* Красная рамка при фокусе */
+}

@@ -1,0 +1,9 @@
+.invalid {
+  border: 1px solid #ff0000;
+ // background: rgb(68, 6, 6);
+}
+
+.invalid:focus {
+  outline: none; /* Убираем стандартное обводку браузера */
+  border-color: #ff0000; /* Красная рамка при фокусе */
+}
