@@ -37,6 +37,7 @@ function BookList() {
 
   const handleToggleFavorite = (id) => {
     dispatch(toggleFavorite(id));
+    
   };
 
   // метод includes всегда возвращает true, если мы ищем пустую строку в любой строке
@@ -116,4 +117,8 @@ function BookList() {
   );
 }
 
+
+
 export default BookList;
+
+

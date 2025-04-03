@@ -11,7 +11,7 @@ function App() {
       </header>
       <main className={`${styles['app-main']}`}>
         <div className={`${styles['app-left-column']}`}>
-          {' '}
+
           <BookForm></BookForm>
         </div>
         <div className={`${styles['app-right-column']}`}>

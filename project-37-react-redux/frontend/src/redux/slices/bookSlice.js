@@ -110,6 +110,7 @@ const bookSlice = createSlice({
 export const { addBook, deleteBook, toggleFavorite } = bookSlice.actions;
 
 export const selectAllBooks = (state) => state.books.books;
+console.log(selectAllBooks);
 
 export const selectIsLoadingViaAPI = (state) => state.books.isLoadingViaAPI;
 
@@ -130,3 +131,5 @@ export const thunkFunction = async (dispatch, getState) => {
   // console.log(getState());
 };
 */
+
+
